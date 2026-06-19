@@ -1,1 +1,4 @@
+let PodeVotar (idade) 
+
+const
 
