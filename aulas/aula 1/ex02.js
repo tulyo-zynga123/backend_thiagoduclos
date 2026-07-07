@@ -1,3 +1,9 @@
-const aluno = {nome: "Ana", idade: 17, cidade: "Cascavel"};
+let soma = 0;
 
-console.log(`Olá! Meu nome é ${aluno.nome}, tenho ${aluno.idade} anos e moro em ${aluno.cidade}.`);
+for (let i = 1; i <= 70; i++) {
+    if (i % 7 === 0) {
+        soma += i;
+    }
+}
+
+console.log(soma);
