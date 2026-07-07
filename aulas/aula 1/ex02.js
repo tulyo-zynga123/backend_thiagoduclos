@@ -1,9 +1,3 @@
-let soma = 0;
-
-for (let i = 1; i <= 70; i++) {
-    if (i % 7 === 0) {
-        soma += i;
-    }
-}
-
-console.log(soma);
+let num1 = Number(prompt("digite o primeiro numero:")); 
+let num2 = Number(prompt("digite o segundo numero:")); 
+console.log(`soma: ${num1 + num2}`);
